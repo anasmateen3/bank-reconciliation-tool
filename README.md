@@ -1,30 +1,28 @@
-# Automated Bank Reconciliation
+# Automated Bank Reconciliation Tool
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/4567uiyjhts-projects/v0-automated-bank-reconciliation)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/lHkjHEfFrtK)
+A practical solution for matching bank transactions with internal financial records to streamline reconciliation processes.
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+This tool automates the reconciliation process between bank statements and internal financial records, saving time and improving accuracy by automatically matching transactions and flagging discrepancies.
 
-## Deployment
+## Features
 
-Your project is live at:
+- **Import Flexibility**
+  - Bank statements: CSV, PDF, or API connection
+  - Internal records: CSV/Excel format support
 
-**[https://vercel.com/4567uiyjhts-projects/v0-automated-bank-reconciliation](https://vercel.com/4567uiyjhts-projects/v0-automated-bank-reconciliation)**
+- **Intelligent Matching**
+  - Match by transaction IDs, dates, amounts
+  - Configurable tolerance for slight mismatches
+  - Handle split transactions
 
-## Build your app
+- **Exception Handling**
+  - Flag unmatched transactions on both sides
+  - Identify potential missing or fraudulent items
+  - Categorize exceptions by priority
 
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/lHkjHEfFrtK](https://v0.dev/chat/projects/lHkjHEfFrtK)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- **Reporting**
+  - Reconciliation summary reports
+  - Detailed exception lists
+  - Export in multiple formats
